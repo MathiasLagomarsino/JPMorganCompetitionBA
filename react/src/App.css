@@ -1,0 +1,118 @@
+.App {
+  text-align: center;
+  background-image: url(./sample/fondotrama.jpg);
+  color: #FFFFFF;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+button{
+  background:    #9900FF;
+  border-radius: 11px;
+  padding:       7px 25px;
+  color:         #FFFFFF;
+  display:        inline-block;
+  font:          normal normal 10px/1 "Open Sans", sans-serif;
+  text-align:    center;  
+}
+.logo{
+  border-radius:100px;
+  height:50px;
+}
+.search{
+  width:100%;
+}
+input {
+  padding: 5px;
+  font-size: 16px;
+  border-width: 1px;
+  border-color: #CCCCCC;
+  background-color: #FFFFFF;
+  color: #000000;
+  border-style: solid;
+  border-radius: 8px;
+  box-shadow: 0px 0px 5px rgba(66,66,66,.75);
+  text-shadow: 0px 0px 5px rgba(66,66,66,.75);
+}
+input:focus {
+  outline:none;
+}
+#nav{
+  border: red 10px;
+  background-color: darkslategray;
+}
+.user{
+  height:20px;
+  width:20px;
+  }
+  #donate {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+  }
+  #chat {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+  }
+  .torneo-titulo{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.torneo-juego{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.informacion{
+    margin: 50px
+}
+
+.torneo-info-imagen{
+    border-radius: 8px;
+    height: 250px;
+    width: 180px;
+}
+
+.torneo-info-informacion{
+  font-family: Arial, Helvetica, sans-serif;
+}
+#ranking{
+  position: relative;
+  top: 0%;
+}
+#tornoes{
+  z-index: 9999;
+}
